@@ -1,0 +1,153 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+background-color:#01090b; 
+}
+nav{
+    background-color:#01090b; 
+    height: 100px;
+}
+nav input{
+  width: 0;
+  border:0;
+  height:28px;
+  border-radius: 10px;
+  /* padding-left: 10px; */
+  outline:0;
+  transition: 1s;
+}
+.nav-image-logo{
+    height:50px;
+    width: 180px;
+}
+.nav-image-logo img{
+    height:100%;
+    width: 100%;
+}
+nav ul li{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.fa-magnifying-glass,.fa-bag-shopping{
+font-size:27px;
+color:#8cd8e1;
+}
+.fa-bag-shopping{
+margin-inline: 10px;
+}
+.nav-form div{
+    height:28px;
+    border: 0;
+    border-right: 4px solid white;
+    padding-right:10px;
+}
+#search-btn-2{
+    display: none;
+}
+/* video */
+.video-section{
+    background: url(./Video/logo\ 1\ video.mp4);
+}
+/* aboutUs */
+.aboutUs-cont{
+    background: url(./images/Layer\ 4.png)no-repeat;
+
+    background-size: 60%;
+    height: 800px;
+}
+.gradient-1{
+    height:100%;
+    background: linear-gradient(rgba(12, 147, 200, 0.192),rgba(255, 255, 255, 0.381));
+}
+.main-btn{
+    border: 1px solid lightgray;
+    background-color:white;
+    padding:10px 25px 10px 25px;
+    border-radius:10px;
+}
+.services-bg{
+    background: url(./images/Vector\ Smart\ Object\ copy\ 8.png)no-repeat;
+    height: 600px;
+    background-position: right;
+
+}
+.coding-bg{
+    background: url(./images/Vector\ Smart\ Object.png)no-repeat;
+    height: 600px;
+    background-position:bottom left; 
+    
+}
+.carved-bg{
+    /* background-color:rgba(255, 255, 255, 0.532); */
+    background: linear-gradient(white,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    position: relative;
+    z-index: 11;
+}
+.robot-bg{
+    height:100%;
+    background:url(./images/bee.jpg)no-repeat fixed;
+    background-size:100%;
+    position: relative;
+    z-index:10;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.373)!important;
+    color:white;
+    border-radius: 10px!important;
+}
+.card-title{
+    font-size: 31px;
+    color:#0DCAF0;
+    margin-block: 30px!important;
+}
+.card-text{
+    text-align: justify;
+}
+.row{
+    /* margin-bottom: 200px!important; */
+    row-gap:80px;
+}
+.card img{
+    width: 75%;
+    aspect-ratio:1;
+    /* height: 200px; */
+    margin: auto;
+}
+.card-img-top{
+    transition: 1s;
+}
+.card:hover .card-img-top{
+transform: scale(1.2) translateY(-30px)!important;
+}
+.card:hover{
+box-shadow: 0 0 20px rgba(211, 211, 211, 0.403);
+}
+
+footer{
+    background: url(./images/robot-hand-finger-ai-background-technology-graphics.png);
+    background-position: top;
+    height: 600px;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: #0DCAF0;
+}
+footer ul{
+   list-style: none;
+   padding: 0;
+}
+footer li{
+    margin: 0;
+    padding: 0;
+margin-bottom: 10px;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 40px;
+}
